@@ -21,4 +21,4 @@ Supported ESP32 boards, display controllers, pin assignments and player integrat
 - [oxnas](../oxnas/README.md)
 - [audioplayer](../audioplayer/README.md)
 
-[Back to arm-audiobox](../Readme.md)
+[Back to arm-audiobox](../README.md)

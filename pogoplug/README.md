@@ -14,4 +14,4 @@ This directory is prepared for project files and documentation. No firmware imag
 
 OXNAS-based devices are covered separately in [oxnas](../oxnas/README.md). Firmware images and hardware instructions must match the exact device model.
 
-[Back to arm-audiobox](../Readme.md)
+[Back to arm-audiobox](../README.md)

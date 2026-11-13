@@ -15,4 +15,4 @@ This directory is prepared for project files and documentation. No firmware imag
 
 PogoPlug E02 projects are covered separately in [pogoplug](../pogoplug/README.md). E02 and OXNAS firmware images are not interchangeable. Display support must be documented for each configuration.
 
-[Back to arm-audiobox](../Readme.md)
+[Back to arm-audiobox](../README.md)

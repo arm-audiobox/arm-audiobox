@@ -17,4 +17,4 @@ Supported boards, displays and playback services will be listed for each project
 
 For PogoPlug projects, see [pogoplug](../pogoplug/README.md) and [oxnas](../oxnas/README.md).
 
-[Back to arm-audiobox](../Readme.md)
+[Back to arm-audiobox](../README.md)
