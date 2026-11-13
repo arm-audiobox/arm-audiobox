@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="610" viewBox="0 0 960 610" role="img" aria-labelledby="title desc">
+<title id="title">arm-audiobox · oxnas — PogoPlug player V6.0</title>
+<desc id="desc">Dark green arm-audiobox project banner with lime accents and three cards for Squeezelite, AirPlay and DLNA / UPnP.</desc>
+<defs>
+<radialGradient id="bg" cx="90%" cy="0%" r="85%"><stop stop-color="#233425"/><stop offset="1" stop-color="#111713"/></radialGradient>
+<linearGradient id="active" x2="1" y2="1"><stop stop-color="#263424"/><stop offset="1" stop-color="#1b231d"/></linearGradient>
+</defs>
+<rect width="960" height="610" rx="22" fill="#111713"/><rect width="960" height="610" rx="22" fill="url(#bg)"/>
+<g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<rect x="42" y="36" width="36" height="36" rx="10" fill="#bcf392"/>
+<g stroke="#172317" stroke-width="2" stroke-linecap="round"><path d="M51 51v6m5-12v18m5-21v24m5-19v14m5-10v6"/></g>
+<text x="90" y="60" fill="#edf1ed" font-size="21" font-weight="650">arm-audiobox<tspan fill="#a3b0a5" font-weight="400"> / oxnas</tspan></text>
+<rect x="843" y="39" width="75" height="29" rx="7" fill="none" stroke="#303a31"/><text x="880" y="58" fill="#a3b0a5" font-size="12" text-anchor="middle">V6.0</text>
+<text x="42" y="136" fill="#bcf392" font-size="12" letter-spacing="2.3" font-weight="650">YOUR NETWORK MUSIC PLAYER</text>
+<text x="42" y="193" fill="#edf1ed" font-size="48" font-weight="620" letter-spacing="-2">Your PogoPlug. More music.</text>
+<text x="42" y="230" fill="#a3b0a5" font-size="17">A new purpose for your OX820. Three ways to listen.</text>
+<g transform="translate(42 271)">
+<rect width="280" height="240" rx="17" fill="url(#active)" stroke="#779b5e"/>
+<rect x="24" y="24" width="47" height="47" rx="12" fill="#33452c" stroke="#4d6543"/>
+<g stroke="#bcf392" stroke-width="1.8" stroke-linecap="round"><path d="M35 44v7m6-14v21m6-26v31m6-23v15m6-11v7"/></g>
+<text x="24" y="113" fill="#edf1ed" font-size="25" font-weight="600">Squeezelite</text>
+<text x="24" y="142" fill="#a3b0a5" font-size="14">Your music library.</text><text x="24" y="164" fill="#a3b0a5" font-size="14">Powered by Lyrion Music Server.</text>
+<path d="M24 190h232" stroke="#3c483d"/><text x="24" y="216" fill="#bcf392" font-size="12">MUSIC SERVER · USB AUDIO</text>
+</g>
+<g transform="translate(340 271)">
+<rect width="280" height="240" rx="17" fill="#1b231d" stroke="#303a31"/>
+<rect x="24" y="24" width="47" height="47" rx="12" fill="#2b352d" stroke="#3c483d"/>
+<g stroke="#c6d2c6" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M40 54h-5a2 2 0 0 1-2-2V37a2 2 0 0 1 2-2h25a2 2 0 0 1 2 2v15a2 2 0 0 1-2 2h-5M48 49l10 13H38z"/></g>
+<text x="24" y="113" fill="#edf1ed" font-size="25" font-weight="600">AirPlay</text>
+<text x="24" y="142" fill="#a3b0a5" font-size="14">Audio from your Apple devices.</text><text x="24" y="164" fill="#a3b0a5" font-size="14">Classic AirPlay over your LAN.</text>
+<path d="M24 190h232" stroke="#303a31"/><text x="24" y="216" fill="#a3b0a5" font-size="12">IPHONE · IPAD · MAC</text>
+</g>
+<g transform="translate(638 271)">
+<rect width="280" height="240" rx="17" fill="#1b231d" stroke="#303a31"/>
+<rect x="24" y="24" width="47" height="47" rx="12" fill="#2b352d" stroke="#3c483d"/>
+<g stroke="#c6d2c6" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="41" y="33" width="14" height="12" rx="2"/><path d="M48 45v8m-13 0h26m-26 0v5m13-5v5m13-5v5"/><rect x="31" y="58" width="8" height="6" rx="1"/><rect x="44" y="58" width="8" height="6" rx="1"/><rect x="57" y="58" width="8" height="6" rx="1"/></g>
+<text x="24" y="113" fill="#edf1ed" font-size="25" font-weight="600">DLNA / UPnP</text>
+<text x="24" y="142" fill="#a3b0a5" font-size="14">Music across your home network.</text><text x="24" y="164" fill="#a3b0a5" font-size="14">Control it from a compatible app.</text>
+<path d="M24 190h232" stroke="#303a31"/><text x="24" y="216" fill="#a3b0a5" font-size="12">NETWORK AUDIO · RECEIVER</text>
+</g>
+<path d="M42 551h876" stroke="#303a31"/>
+<text x="42" y="578" fill="#7b8b7e" font-size="12">OX820 · Buildroot · USB audio · ESP32 display</text>
+<text x="918" y="578" text-anchor="end" fill="#7b8b7e" font-size="12">Listen. Understand. Build.</text>
+</g></svg>
