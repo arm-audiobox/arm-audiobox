@@ -1,0 +1,347 @@
+{
+  "method": "slim.request",
+  "params": [
+    "00:25:31:02:29:e7",
+    [
+      "browselibrary",
+      "items",
+      "0",
+      "4",
+      "mode:bmf",
+      "menu:1"
+    ]
+  ],
+  "result": {
+    "base": {
+      "actions": {
+        "add-hold": {
+          "params": {
+            "mode": "bmf",
+            "menu": "browselibrary"
+          },
+          "player": 0,
+          "cmd": [
+            "browselibrary",
+            "playlist",
+            "insert"
+          ],
+          "itemsParams": "params"
+        },
+        "more": {
+          "itemsParams": "params",
+          "window": {
+            "isContextMenu": 1
+          },
+          "player": 0,
+          "params": {
+            "mode": "bmf",
+            "menu": "browselibrary"
+          },
+          "cmd": [
+            "browselibrary",
+            "items"
+          ]
+        },
+        "go": {
+          "params": {
+            "mode": "bmf",
+            "menu": "browselibrary"
+          },
+          "cmd": [
+            "browselibrary",
+            "items"
+          ],
+          "itemsParams": "params"
+        },
+        "play": {
+          "nextWindow": "nowPlaying",
+          "itemsParams": "params",
+          "cmd": [
+            "browselibrary",
+            "playlist",
+            "play"
+          ],
+          "params": {
+            "mode": "bmf",
+            "menu": "browselibrary"
+          },
+          "player": 0
+        },
+        "add": {
+          "itemsParams": "params",
+          "cmd": [
+            "browselibrary",
+            "playlist",
+            "add"
+          ],
+          "player": 0,
+          "params": {
+            "mode": "bmf",
+            "menu": "browselibrary"
+          }
+        },
+        "playControl": {
+          "itemsParams": "playControlParams",
+          "window": {
+            "isContextMenu": 1
+          },
+          "cmd": [
+            "browselibrary",
+            "items"
+          ],
+          "player": 0,
+          "params": {
+            "mode": "bmf",
+            "menu": "1",
+            "_index": "0",
+            "_quantity": "4"
+          }
+        }
+      }
+    },
+    "count": 11,
+    "window": {
+      "windowStyle": "text_list"
+    },
+    "item_loop": [
+      {
+        "params": {
+          "item_id": "0",
+          "isContextMenu": 1
+        },
+        "type": "playlist",
+        "actions": {
+          "add-hold": {
+            "cmd": [
+              "playlistcontrol"
+            ],
+            "player": 0,
+            "params": {
+              "folder_id": "110134",
+              "cmd": "insert",
+              "menu": 1
+            }
+          },
+          "add": {
+            "cmd": [
+              "playlistcontrol"
+            ],
+            "player": 0,
+            "params": {
+              "folder_id": "110134",
+              "cmd": "add",
+              "menu": 1
+            }
+          },
+          "play": {
+            "nextWindow": "nowPlaying",
+            "params": {
+              "menu": 1,
+              "folder_id": "110134",
+              "cmd": "load"
+            },
+            "player": 0,
+            "cmd": [
+              "playlistcontrol"
+            ]
+          },
+          "more": {
+            "params": {
+              "folder_id": "110134",
+              "menu": 1
+            },
+            "player": 0,
+            "cmd": [
+              "folderinfo",
+              "items"
+            ],
+            "window": {
+              "isContextMenu": 1
+            }
+          }
+        },
+        "text": "01-depeche-mode",
+        "textkey": "0"
+      },
+      {
+        "type": "playlist",
+        "params": {
+          "isContextMenu": 1,
+          "item_id": "1"
+        },
+        "actions": {
+          "play": {
+            "params": {
+              "cmd": "load",
+              "folder_id": "110135",
+              "menu": 1
+            },
+            "player": 0,
+            "cmd": [
+              "playlistcontrol"
+            ],
+            "nextWindow": "nowPlaying"
+          },
+          "add": {
+            "cmd": [
+              "playlistcontrol"
+            ],
+            "params": {
+              "menu": 1,
+              "folder_id": "110135",
+              "cmd": "add"
+            },
+            "player": 0
+          },
+          "add-hold": {
+            "cmd": [
+              "playlistcontrol"
+            ],
+            "params": {
+              "folder_id": "110135",
+              "cmd": "insert",
+              "menu": 1
+            },
+            "player": 0
+          },
+          "more": {
+            "window": {
+              "isContextMenu": 1
+            },
+            "player": 0,
+            "params": {
+              "folder_id": "110135",
+              "menu": 1
+            },
+            "cmd": [
+              "folderinfo",
+              "items"
+            ]
+          }
+        },
+        "text": "02-ebm-gothic-electro",
+        "textkey": "0"
+      },
+      {
+        "text": "artists",
+        "type": "playlist",
+        "params": {
+          "item_id": "2",
+          "isContextMenu": 1
+        },
+        "actions": {
+          "more": {
+            "cmd": [
+              "folderinfo",
+              "items"
+            ],
+            "params": {
+              "menu": 1,
+              "folder_id": "110136"
+            },
+            "player": 0,
+            "window": {
+              "isContextMenu": 1
+            }
+          },
+          "add": {
+            "params": {
+              "menu": 1,
+              "folder_id": "110136",
+              "cmd": "add"
+            },
+            "player": 0,
+            "cmd": [
+              "playlistcontrol"
+            ]
+          },
+          "play": {
+            "nextWindow": "nowPlaying",
+            "cmd": [
+              "playlistcontrol"
+            ],
+            "params": {
+              "menu": 1,
+              "folder_id": "110136",
+              "cmd": "load"
+            },
+            "player": 0
+          },
+          "add-hold": {
+            "player": 0,
+            "params": {
+              "folder_id": "110136",
+              "cmd": "insert",
+              "menu": 1
+            },
+            "cmd": [
+              "playlistcontrol"
+            ]
+          }
+        },
+        "textkey": "A"
+      },
+      {
+        "actions": {
+          "add-hold": {
+            "player": 0,
+            "params": {
+              "menu": 1,
+              "folder_id": "110137",
+              "cmd": "insert"
+            },
+            "cmd": [
+              "playlistcontrol"
+            ]
+          },
+          "add": {
+            "cmd": [
+              "playlistcontrol"
+            ],
+            "params": {
+              "cmd": "add",
+              "folder_id": "110137",
+              "menu": 1
+            },
+            "player": 0
+          },
+          "play": {
+            "cmd": [
+              "playlistcontrol"
+            ],
+            "params": {
+              "cmd": "load",
+              "folder_id": "110137",
+              "menu": 1
+            },
+            "player": 0,
+            "nextWindow": "nowPlaying"
+          },
+          "more": {
+            "cmd": [
+              "folderinfo",
+              "items"
+            ],
+            "params": {
+              "menu": 1,
+              "folder_id": "110137"
+            },
+            "player": 0,
+            "window": {
+              "isContextMenu": 1
+            }
+          }
+        },
+        "type": "playlist",
+        "params": {
+          "item_id": "3",
+          "isContextMenu": 1
+        },
+        "text": "bravo-hits",
+        "textkey": "B"
+      }
+    ],
+    "offset": 0
+  },
+  "id": 1
+}

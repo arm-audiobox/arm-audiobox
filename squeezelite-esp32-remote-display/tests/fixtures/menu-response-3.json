@@ -1,0 +1,95 @@
+{
+  "id": 1,
+  "params": [
+    "00:25:31:02:29:e7",
+    [
+      "radios",
+      "0",
+      "4",
+      "menu:radio"
+    ]
+  ],
+  "result": {
+    "count": 10,
+    "item_loop": [
+      {
+        "icon-id": "/plugins/TuneIn/html/images/radiopresets.png",
+        "weight": 5,
+        "window": {
+          "titleStyle": "album"
+        },
+        "actions": {
+          "go": {
+            "params": {
+              "menu": "presets"
+            },
+            "cmd": [
+              "presets",
+              "items"
+            ]
+          }
+        },
+        "text": "Eigene Voreinstellungen"
+      },
+      {
+        "text": "Lokales Radio",
+        "actions": {
+          "go": {
+            "params": {
+              "menu": "local"
+            },
+            "cmd": [
+              "local",
+              "items"
+            ]
+          }
+        },
+        "window": {
+          "titleStyle": "album"
+        },
+        "icon-id": "/plugins/TuneIn/html/images/radiolocal.png",
+        "weight": 20
+      },
+      {
+        "text": "Musik",
+        "actions": {
+          "go": {
+            "params": {
+              "menu": "music"
+            },
+            "cmd": [
+              "music",
+              "items"
+            ]
+          }
+        },
+        "window": {
+          "titleStyle": "album"
+        },
+        "icon-id": "/plugins/TuneIn/html/images/radiomusic.png",
+        "weight": 30
+      },
+      {
+        "actions": {
+          "go": {
+            "params": {
+              "menu": "sports"
+            },
+            "cmd": [
+              "sports",
+              "items"
+            ]
+          }
+        },
+        "text": "Sport",
+        "icon-id": "/plugins/TuneIn/html/images/radiosports.png",
+        "weight": 40,
+        "window": {
+          "titleStyle": "album"
+        }
+      }
+    ],
+    "offset": "0"
+  },
+  "method": "slim.request"
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480" role="img" aria-labelledby="title desc">
+<title id="title">arm-audiobox · ESP32 remote display</title>
+<desc id="desc">LMS touch remote in the dark green PogoPlayer style, with player controls, cover artwork and a standby clock.</desc>
+<defs><radialGradient id="bg" cx="90%" cy="0%" r="85%"><stop stop-color="#233425"/><stop offset="1" stop-color="#111713"/></radialGradient></defs>
+<rect width="960" height="480" rx="22" fill="url(#bg)"/>
+<g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<rect x="42" y="36" width="36" height="36" rx="10" fill="#bcf392"/><g stroke="#172317" stroke-width="2" stroke-linecap="round"><path d="M51 51v6m5-12v18m5-21v24m5-19v14m5-10v6"/></g>
+<text x="90" y="60" fill="#edf1ed" font-size="21" font-weight="650">arm-audiobox<tspan fill="#a3b0a5" font-weight="400"> / remote display</tspan></text>
+<rect x="843" y="39" width="75" height="29" rx="7" fill="none" stroke="#303a31"/><text x="880" y="58" fill="#a3b0a5" font-size="12" text-anchor="middle">V0.13.1</text>
+<text x="42" y="132" fill="#bcf392" font-size="12" letter-spacing="2.3">YOUR MUSIC. WITHIN REACH.</text>
+<text x="42" y="188" fill="#edf1ed" font-size="44" font-weight="620">A touch closer to your music.</text>
+<text x="42" y="224" fill="#a3b0a5" font-size="17">ESP32 touch remote for Squeezelite and Lyrion Music Server.</text>
+<g transform="translate(42 266)"><rect width="280" height="142" rx="17" fill="#1b231d" stroke="#4d6543"/><text x="20" y="39" fill="#edf1ed" font-size="23">Touch control</text><text x="20" y="72" fill="#a3b0a5" font-size="13">Choose players. Adjust volume.</text><path d="M20 93h240" stroke="#303a31"/><text x="20" y="119" fill="#bcf392" font-size="11">PLAYER · WI-FI · MENUS</text></g>
+<g transform="translate(340 266)"><rect width="280" height="142" rx="17" fill="#1b231d" stroke="#4d6543"/><text x="20" y="39" fill="#edf1ed" font-size="23">Now playing</text><text x="20" y="72" fill="#a3b0a5" font-size="13">Track details and cover artwork.</text><path d="M20 93h240" stroke="#303a31"/><text x="20" y="119" fill="#bcf392" font-size="11">LIBRARY · RADIO · QUEUE</text></g>
+<g transform="translate(638 266)"><rect width="280" height="142" rx="17" fill="#1b231d" stroke="#4d6543"/><text x="20" y="39" fill="#edf1ed" font-size="23">Standby clock</text><text x="20" y="72" fill="#a3b0a5" font-size="13">Flip clock with date.</text><path d="M20 93h240" stroke="#303a31"/><text x="20" y="119" fill="#bcf392" font-size="11">PAUSE · POWER · TIME</text></g>
+<text x="42" y="451" fill="#7b8b7e" font-size="12">CYD · ST7789 · XPT2046 · Wi-Fi</text><text x="918" y="451" text-anchor="end" fill="#7b8b7e" font-size="12">Listen. Understand. Build.</text></g></svg>

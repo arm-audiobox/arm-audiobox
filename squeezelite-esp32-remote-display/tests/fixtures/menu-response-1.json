@@ -1,0 +1,268 @@
+{
+  "id": 1,
+  "result": {
+    "base": {
+      "actions": {
+        "set-preset-0": {
+          "cmd": [
+            "jivefavorites",
+            "set_preset",
+            "key:0"
+          ],
+          "player": 0,
+          "itemsParams": "presetParams"
+        },
+        "playControl": {
+          "window": {
+            "isContextMenu": 1
+          },
+          "itemsParams": "playControlParams",
+          "params": {
+            "_quantity": "4",
+            "_index": "0",
+            "mode": "albums",
+            "menu": "1"
+          },
+          "player": 0,
+          "cmd": [
+            "browselibrary",
+            "items"
+          ]
+        },
+        "go": {
+          "itemsParams": "commonParams",
+          "player": 0,
+          "params": {
+            "release_type": "ALBUM",
+            "mode": "tracks",
+            "menu": 1
+          },
+          "cmd": [
+            "browselibrary",
+            "items"
+          ]
+        },
+        "set-preset-7": {
+          "cmd": [
+            "jivefavorites",
+            "set_preset",
+            "key:7"
+          ],
+          "player": 0,
+          "itemsParams": "presetParams"
+        },
+        "add-hold": {
+          "cmd": [
+            "playlistcontrol"
+          ],
+          "params": {
+            "release_type": "ALBUM",
+            "cmd": "insert",
+            "menu": 1
+          },
+          "player": 0,
+          "itemsParams": "commonParams"
+        },
+        "set-preset-1": {
+          "cmd": [
+            "jivefavorites",
+            "set_preset",
+            "key:1"
+          ],
+          "player": 0,
+          "itemsParams": "presetParams"
+        },
+        "add": {
+          "params": {
+            "menu": 1,
+            "release_type": "ALBUM",
+            "cmd": "add"
+          },
+          "player": 0,
+          "cmd": [
+            "playlistcontrol"
+          ],
+          "itemsParams": "commonParams"
+        },
+        "play": {
+          "nextWindow": "nowPlaying",
+          "itemsParams": "commonParams",
+          "params": {
+            "menu": 1,
+            "cmd": "load",
+            "release_type": "ALBUM"
+          },
+          "player": 0,
+          "cmd": [
+            "playlistcontrol"
+          ]
+        },
+        "set-preset-9": {
+          "cmd": [
+            "jivefavorites",
+            "set_preset",
+            "key:9"
+          ],
+          "player": 0,
+          "itemsParams": "presetParams"
+        },
+        "set-preset-5": {
+          "cmd": [
+            "jivefavorites",
+            "set_preset",
+            "key:5"
+          ],
+          "player": 0,
+          "itemsParams": "presetParams"
+        },
+        "set-preset-2": {
+          "cmd": [
+            "jivefavorites",
+            "set_preset",
+            "key:2"
+          ],
+          "player": 0,
+          "itemsParams": "presetParams"
+        },
+        "set-preset-8": {
+          "player": 0,
+          "cmd": [
+            "jivefavorites",
+            "set_preset",
+            "key:8"
+          ],
+          "itemsParams": "presetParams"
+        },
+        "set-preset-4": {
+          "cmd": [
+            "jivefavorites",
+            "set_preset",
+            "key:4"
+          ],
+          "player": 0,
+          "itemsParams": "presetParams"
+        },
+        "set-preset-3": {
+          "itemsParams": "presetParams",
+          "cmd": [
+            "jivefavorites",
+            "set_preset",
+            "key:3"
+          ],
+          "player": 0
+        },
+        "more": {
+          "window": {
+            "isContextMenu": 1
+          },
+          "itemsParams": "commonParams",
+          "params": {
+            "release_type": "ALBUM",
+            "menu": 1
+          },
+          "player": 0,
+          "cmd": [
+            "albuminfo",
+            "items"
+          ]
+        },
+        "set-preset-6": {
+          "itemsParams": "presetParams",
+          "player": 0,
+          "cmd": [
+            "jivefavorites",
+            "set_preset",
+            "key:6"
+          ]
+        }
+      }
+    },
+    "offset": 0,
+    "item_loop": [
+      {
+        "presetParams": {
+          "favorites_url": "db:album.title=Schiebedach%20(feat.%20Omar101%2C%20Nizi19%2C%20Karamel19%20%26%20Lucio101)&contributor.name=1019%2C%20Omar101%2C%20Nizi19%2C%20Karamel19%2C%20Lucio101",
+          "favorites_type": "playlist",
+          "icon": "music/56cf17c8/cover",
+          "favorites_title": "Schiebedach (feat. Omar101, Nizi19, Karamel19 & Lucio101)"
+        },
+        "icon-id": "56cf17c8",
+        "textkey": "1",
+        "commonParams": {
+          "performance": "",
+          "album_id": "8800"
+        },
+        "type": "playlist",
+        "text": "Schiebedach (feat. Omar101, Nizi19, Karamel19 & Lucio101)\n1019, Omar101, Nizi19, Karamel19, Lucio101",
+        "icon": "music/56cf17c8/cover"
+      },
+      {
+        "presetParams": {
+          "favorites_type": "playlist",
+          "favorites_url": "db:album.title=I'm%20In%20Love%20With%20You&contributor.name=The%201975",
+          "favorites_title": "I'm In Love With You",
+          "icon": "music/d60e8794/cover"
+        },
+        "textkey": "1",
+        "icon-id": "d60e8794",
+        "commonParams": {
+          "album_id": "8765",
+          "performance": ""
+        },
+        "type": "playlist",
+        "text": "I'm In Love With You\nThe 1975",
+        "icon": "music/d60e8794/cover"
+      },
+      {
+        "commonParams": {
+          "album_id": "8575",
+          "performance": ""
+        },
+        "type": "playlist",
+        "text": "2008 - Kuschel Rock 22 CD1\n2008 - Kuschel Rock 22",
+        "icon": "music/eccbe1fd/cover",
+        "presetParams": {
+          "favorites_title": "2008 - Kuschel Rock 22 CD1",
+          "icon": "music/eccbe1fd/cover",
+          "favorites_url": "db:album.title=2008%20-%20Kuschel%20Rock%2022%20CD1&contributor.name=2008%20-%20Kuschel%20Rock%2022",
+          "favorites_type": "playlist"
+        },
+        "textkey": "2",
+        "icon-id": "eccbe1fd"
+      },
+      {
+        "type": "playlist",
+        "commonParams": {
+          "performance": "",
+          "album_id": "9069"
+        },
+        "text": "Occhi\n2g",
+        "icon": "music/e8865126/cover",
+        "presetParams": {
+          "favorites_type": "playlist",
+          "favorites_url": "db:album.title=Occhi&contributor.name=2g",
+          "favorites_title": "Occhi",
+          "icon": "music/e8865126/cover"
+        },
+        "icon-id": "e8865126",
+        "textkey": "2"
+      }
+    ],
+    "count": 2331,
+    "window": {
+      "windowStyle": "icon_list"
+    }
+  },
+  "params": [
+    "00:25:31:02:29:e7",
+    [
+      "browselibrary",
+      "items",
+      "0",
+      "4",
+      "mode:albums",
+      "menu:1"
+    ]
+  ],
+  "method": "slim.request"
+}

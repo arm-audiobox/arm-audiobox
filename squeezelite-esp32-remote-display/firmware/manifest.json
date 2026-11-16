@@ -1,0 +1,31 @@
+{
+  "version": "0.13.1",
+  "firmware_build_id": "0.13.1-overlay-test",
+  "target": "ESP32-2432S028 USB-C / ST7789 / XPT2046",
+  "flash_size": "4MB",
+  "environment": "cyd-st7789",
+  "framework": "Arduino / espressif32 6.9.0",
+  "images": {
+    "cyd-st7789-v0.13.1-factory.bin": "0x0",
+    "cyd-st7789-v0.13.1-update.bin": "0x10000",
+    "bootloader.bin": "0x1000",
+    "partitions.bin": "0x8000",
+    "boot_app0.bin": "0xe000"
+  },
+  "origin": "Unchanged application binary tested and flashed on the development display; approved by the user. Factory image combines compiled build artifacts only. No device flash dump or stored credentials.",
+  "source_sha256": {
+    "src/clock_model.h": "043aae1e767cb7be3219ca6f6524c736d4a8ea9f7132c5dc0fba35a83adb61cc",
+    "src/display.h": "43e9b02a3296a8cf294e5817bd0999edb4c75ee76d1381c1750949301bec7823",
+    "src/flip_clock.h": "1a5fda6e3764a6f717cc473e3c864356a0236291b904b4c111106693e0123dbf",
+    "src/main.cpp": "4761406dd2cda397c3c0b678fff2adb06bf94b740a6acb9638ac7cf74f84ef5c",
+    "src/menu_idle.h": "2d15c46696cbcc2d91c8dc86275474ba0aad3b32aba32286d43805529e1c063c",
+    "src/menu_model.h": "4965e71a0221210e97e244afa60a61b9811c8736598b44dba65d32ffb6b1b2a5",
+    "src/night_dimming.h": "b10c1f6891e671304314dd95670c0c8a9807f0e30ea68b4dc4cd154f40d18c17",
+    "src/playback_model.h": "2c19933ca7341e7506c8f3c36cd6a8e48390eb3f2257861de2432e032e9f3fd3",
+    "src/touch_gesture.h": "f7b582bcf2fadaa98e0f2506d0794341ce42862f214b9fd835d5508a322dcad0",
+    "src/ui_layout.h": "8dc28f36b91046a5427572671b34ac4096be17089be777629fad40647eab7862",
+    "locale/de.po": "631775315feb7b0064bd66fdcbfe46ff294afde8e2d9efd7cc2cac784b73107a",
+    "locale/en.po": "3bc5e8100f6d2a4e983839f366f2f75c3f1cbecf49073b599ed2bb21f9740e4c",
+    "tools/build_translations.py": "6af948c6f10c4747057d4333d135d665de733862b36fd37b3676bfbab2fa49b5"
+  }
+}

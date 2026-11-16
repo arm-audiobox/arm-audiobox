@@ -1,0 +1,278 @@
+{
+  "method": "slim.request",
+  "params": [
+    "00:25:31:02:29:e7",
+    [
+      "favorites",
+      "items",
+      "0",
+      "4",
+      "menu:favorites",
+      "menu:1"
+    ]
+  ],
+  "result": {
+    "item_loop": [
+      {
+        "text": "1LIVE 99.7 (Top 40 & Pop Music)",
+        "type": "audio",
+        "params": {
+          "isContextMenu": 1,
+          "item_id": "0ead3215.0"
+        },
+        "goAction": "playControl",
+        "icon-id": "/imageproxy/http%3A%2F%2Fcdn-profiles.tunein.com%2Fs25260%2Fimages%2Flogoq.jpg%3Ft%3D1679593356000/image.jpg",
+        "presetParams": {
+          "favorites_title": "1LIVE 99.7 (Top 40 & Pop Music)",
+          "icon": "/imageproxy/http%3A%2F%2Fcdn-profiles.tunein.com%2Fs25260%2Fimages%2Flogoq.jpg%3Ft%3D1679593356000/image.jpg",
+          "favorites_type": "audio",
+          "favorites_url": "http://opml.radiotime.com/Tune.ashx?id=s100195&formats=aac,ogg,mp3,wmpro,wma,wmvoice,hls,real&partnerId=16"
+        },
+        "playControlParams": {
+          "xmlbrowserPlayControl": "0"
+        }
+      },
+      {
+        "presetParams": {
+          "favorites_title": "WDR 2 Rheinland 774 (Top 40 & Pop Music)",
+          "icon": "/imageproxy/http%3A%2F%2Fcdn-radiotime-logos.tunein.com%2Fs213886q.png/image.png",
+          "favorites_url": "http://opml.radiotime.com/Tune.ashx?id=s100212&formats=aac,ogg,mp3,wmpro,wma,wmvoice,hls,real&partnerId=16",
+          "favorites_type": "audio"
+        },
+        "playControlParams": {
+          "xmlbrowserPlayControl": "1"
+        },
+        "icon-id": "/imageproxy/http%3A%2F%2Fcdn-radiotime-logos.tunein.com%2Fs213886q.png/image.png",
+        "goAction": "playControl",
+        "text": "WDR 2 Rheinland 774 (Top 40 & Pop Music)",
+        "params": {
+          "item_id": "0ead3215.1",
+          "isContextMenu": 1
+        },
+        "type": "audio"
+      },
+      {
+        "text": "SWR3 94.8 (Top 40 & Pop Music)",
+        "params": {
+          "item_id": "0ead3215.2",
+          "isContextMenu": 1
+        },
+        "type": "audio",
+        "presetParams": {
+          "icon": "/imageproxy/http%3A%2F%2Fcdn-profiles.tunein.com%2Fs24896%2Fimages%2Flogoq.png%3Ft%3D1/image.png",
+          "favorites_title": "SWR3 94.8 (Top 40 & Pop Music)",
+          "favorites_url": "http://opml.radiotime.com/Tune.ashx?id=s57737&formats=aac,ogg,mp3,wmpro,wma,wmvoice,hls,real&partnerId=16",
+          "favorites_type": "audio"
+        },
+        "playControlParams": {
+          "xmlbrowserPlayControl": "2"
+        },
+        "icon-id": "/imageproxy/http%3A%2F%2Fcdn-profiles.tunein.com%2Fs24896%2Fimages%2Flogoq.png%3Ft%3D1/image.png",
+        "goAction": "playControl"
+      },
+      {
+        "playControlParams": {
+          "xmlbrowserPlayControl": "3"
+        },
+        "presetParams": {
+          "icon": "/imageproxy/http%3A%2F%2Fcdn-radiotime-logos.tunein.com%2Fs255597q.png/image.png",
+          "favorites_title": "80s80s Radio",
+          "favorites_url": "http://opml.radiotime.com/Tune.ashx?id=s255597&formats=aac,ogg,mp3,wmpro,wma,wmvoice,hls,real&partnerId=15",
+          "favorites_type": "audio"
+        },
+        "icon-id": "/imageproxy/http%3A%2F%2Fcdn-radiotime-logos.tunein.com%2Fs255597q.png/image.png",
+        "goAction": "playControl",
+        "type": "audio",
+        "params": {
+          "item_id": "0ead3215.3",
+          "isContextMenu": 1
+        },
+        "text": "80s80s Radio"
+      }
+    ],
+    "title": "Favorites",
+    "base": {
+      "actions": {
+        "set-preset-7": {
+          "cmd": [
+            "jivefavorites",
+            "set_preset",
+            "key:7"
+          ],
+          "player": 0,
+          "itemsParams": "presetParams"
+        },
+        "add-hold": {
+          "cmd": [
+            "favorites",
+            "playlist",
+            "insert"
+          ],
+          "params": {
+            "menu": "favorites"
+          },
+          "player": 0,
+          "itemsParams": "params"
+        },
+        "go": {
+          "window": {
+            "isContextMenu": 1
+          },
+          "itemsParams": "playControlParams",
+          "params": {
+            "_quantity": "4",
+            "_index": "0",
+            "menu": "1"
+          },
+          "player": 0,
+          "cmd": [
+            "favorites",
+            "items"
+          ]
+        },
+        "playControl": {
+          "window": {
+            "isContextMenu": 1
+          },
+          "itemsParams": "playControlParams",
+          "params": {
+            "_quantity": "4",
+            "_index": "0",
+            "menu": "1"
+          },
+          "player": 0,
+          "cmd": [
+            "favorites",
+            "items"
+          ]
+        },
+        "set-preset-0": {
+          "itemsParams": "presetParams",
+          "cmd": [
+            "jivefavorites",
+            "set_preset",
+            "key:0"
+          ],
+          "player": 0
+        },
+        "set-preset-6": {
+          "itemsParams": "presetParams",
+          "player": 0,
+          "cmd": [
+            "jivefavorites",
+            "set_preset",
+            "key:6"
+          ]
+        },
+        "more": {
+          "window": {
+            "isContextMenu": 1
+          },
+          "itemsParams": "params",
+          "params": {
+            "menu": "favorites"
+          },
+          "player": 0,
+          "cmd": [
+            "favorites",
+            "items"
+          ]
+        },
+        "set-preset-3": {
+          "cmd": [
+            "jivefavorites",
+            "set_preset",
+            "key:3"
+          ],
+          "player": 0,
+          "itemsParams": "presetParams"
+        },
+        "set-preset-9": {
+          "player": 0,
+          "cmd": [
+            "jivefavorites",
+            "set_preset",
+            "key:9"
+          ],
+          "itemsParams": "presetParams"
+        },
+        "set-preset-2": {
+          "cmd": [
+            "jivefavorites",
+            "set_preset",
+            "key:2"
+          ],
+          "player": 0,
+          "itemsParams": "presetParams"
+        },
+        "set-preset-5": {
+          "itemsParams": "presetParams",
+          "player": 0,
+          "cmd": [
+            "jivefavorites",
+            "set_preset",
+            "key:5"
+          ]
+        },
+        "set-preset-4": {
+          "itemsParams": "presetParams",
+          "player": 0,
+          "cmd": [
+            "jivefavorites",
+            "set_preset",
+            "key:4"
+          ]
+        },
+        "set-preset-8": {
+          "itemsParams": "presetParams",
+          "player": 0,
+          "cmd": [
+            "jivefavorites",
+            "set_preset",
+            "key:8"
+          ]
+        },
+        "add": {
+          "params": {
+            "menu": "favorites"
+          },
+          "player": 0,
+          "cmd": [
+            "favorites",
+            "playlist",
+            "add"
+          ],
+          "itemsParams": "params"
+        },
+        "play": {
+          "player": 0,
+          "params": {
+            "menu": "favorites"
+          },
+          "cmd": [
+            "favorites",
+            "playlist",
+            "play"
+          ],
+          "itemsParams": "params",
+          "nextWindow": "nowPlaying"
+        },
+        "set-preset-1": {
+          "itemsParams": "presetParams",
+          "cmd": [
+            "jivefavorites",
+            "set_preset",
+            "key:1"
+          ],
+          "player": 0
+        }
+      }
+    },
+    "window": {
+      "windowStyle": "home_menu"
+    },
+    "count": 16,
+    "offset": 0
+  },
+  "id": 1
+}

@@ -1,0 +1,447 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+"Language-Name: English\n"
+
+msgid "Home"
+msgstr "Home"
+
+msgid "Device"
+msgstr "Device"
+
+msgid "Remote control"
+msgstr "Remote control"
+
+msgid "Player"
+msgstr "Player"
+
+msgid "Select player"
+msgstr "Select player"
+
+msgid "Queue"
+msgstr "Queue"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "Now playing"
+msgstr "Now playing"
+
+msgid "Back"
+msgstr "Back"
+
+msgid "Up"
+msgstr "Up"
+
+msgid "Down"
+msgstr "Down"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "Play"
+msgstr "Play"
+
+msgid "Pause"
+msgstr "Pause"
+
+msgid "My Music"
+msgstr "My Music"
+
+msgid "Favorites"
+msgstr "Favorites"
+
+msgid "Apps"
+msgstr "Apps"
+
+msgid "Extras"
+msgstr "Extras"
+
+msgid "Radio"
+msgstr "Radio"
+
+msgid "Music Folder"
+msgstr "Music Folder"
+
+msgid "Albums"
+msgstr "Albums"
+
+msgid "Artists"
+msgstr "Artists"
+
+msgid "Tracks"
+msgstr "Tracks"
+
+msgid "Playlists"
+msgstr "Playlists"
+
+msgid "All artists"
+msgstr "All artists"
+
+msgid "Album artists"
+msgstr "Album artists"
+
+msgid "Genres"
+msgstr "Genres"
+
+msgid "Years"
+msgstr "Years"
+
+msgid "New Music"
+msgstr "New Music"
+
+msgid "Compilations"
+msgstr "Compilations"
+
+msgid "Works"
+msgstr "Works"
+
+msgid "Search"
+msgstr "Search"
+
+msgid "Random Mix"
+msgstr "Random Mix"
+
+msgid "Playlists and mixes"
+msgstr "Playlists and mixes"
+
+msgid "Remote music libraries"
+msgstr "Remote music libraries"
+
+msgid "Library views"
+msgstr "Library views"
+
+msgid "My presets"
+msgstr "My presets"
+
+msgid "Local Radio"
+msgstr "Local Radio"
+
+msgid "Music"
+msgstr "Music"
+
+msgid "News"
+msgstr "News"
+
+msgid "Sport"
+msgstr "Sport"
+
+msgid "Talk"
+msgstr "Talk"
+
+msgid "By location"
+msgstr "By location"
+
+msgid "By language"
+msgstr "By language"
+
+msgid "Podcasts"
+msgstr "Podcasts"
+
+msgid "Search TuneIn"
+msgstr "Search TuneIn"
+
+msgid "No entries"
+msgstr "No entries"
+
+msgid "Information"
+msgstr "Information"
+
+msgid "Offline"
+msgstr "Offline"
+
+msgid "No playback"
+msgstr "No playback"
+
+msgid "No cover"
+msgstr "No cover"
+
+msgid "Live"
+msgstr "Live"
+
+msgid "Stream"
+msgstr "Stream"
+
+msgid "Track {current} of {total}"
+msgstr "Track {current} of {total}"
+
+msgid "Wi-Fi disconnected"
+msgstr "Wi-Fi disconnected"
+
+msgid "LMS unavailable"
+msgstr "LMS unavailable"
+
+msgid "Invalid menu action"
+msgstr "Invalid menu action"
+
+msgid "No menu action"
+msgstr "No menu action"
+
+msgid "Available in the LMS web menu"
+msgstr "Available in the LMS web menu"
+
+msgid "Please select a player first"
+msgstr "Please select a player first"
+
+msgid "Server"
+msgstr "Server"
+
+msgid "Web"
+msgstr "Web"
+
+msgid "Language"
+msgstr "Language"
+
+msgid "Calibrate touch"
+msgstr "Calibrate touch"
+
+msgid "Wi-Fi setup"
+msgstr "Wi-Fi setup"
+
+msgid "Tap the crosses accurately"
+msgstr "Tap the crosses accurately"
+
+msgid "Connect without a password"
+msgstr "Connect without a password"
+
+msgid "Wi-Fi: LMS-Remote"
+msgstr "Wi-Fi: LMS-Remote"
+
+msgid "Browser: 192.168.4.1"
+msgstr "Browser: 192.168.4.1"
+
+msgid "Open on your phone or computer"
+msgstr "Open on your phone or computer"
+
+msgid "LMS Remote starting ..."
+msgstr "LMS Remote starting ..."
+
+msgid "LMS Remote"
+msgstr "LMS Remote"
+
+msgid "Wi-Fi name"
+msgstr "Wi-Fi name"
+
+msgid "Wi-Fi password"
+msgstr "Wi-Fi password"
+
+msgid "LMS server: IP address or DNS name"
+msgstr "LMS server: IP address or DNS name"
+
+msgid "lms.lan or 10.10.172.109"
+msgstr "lms.lan or 10.10.172.109"
+
+msgid "Save and connect"
+msgstr "Save and connect"
+
+msgid "Apply language"
+msgstr "Apply language"
+
+msgid "Cover on the right, music information on the left."
+msgstr "Cover on the right, music information on the left."
+
+msgid "Saved. The display will restart and connect to Wi-Fi."
+msgstr "Saved. The display will restart and connect to Wi-Fi."
+
+msgid "Check settings: IP address or DNS name without http:// or port."
+msgstr "Check settings: IP address or DNS name without http:// or port."
+
+msgid "Tap display crosses"
+msgstr "Tap display crosses"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Aa"
+msgstr "Aa"
+
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+msgid "Audio"
+msgstr "Audio"
+
+msgid "Repeat"
+msgstr "Repeat"
+
+msgid "Shuffle"
+msgstr "Shuffle"
+
+msgid "Off"
+msgstr "Off"
+
+msgid "Track"
+msgstr "Track"
+
+msgid "List"
+msgstr "List"
+
+msgid "Album"
+msgstr "Album"
+
+msgid "Alarm"
+msgstr "Alarm"
+
+msgid "Sleep"
+msgstr "Sleep"
+
+msgid "Synchronize"
+msgstr "Synchronize"
+
+msgid "Crossfade"
+msgstr "Crossfade"
+
+msgid "Volume normalization"
+msgstr "Volume normalization"
+
+msgid "Fixed volume"
+msgstr "Fixed volume"
+
+msgid "Choose genres"
+msgstr "Choose genres"
+
+msgid "Stop random mix"
+msgstr "Stop random mix"
+
+msgid "Use library view"
+msgstr "Use library view"
+
+msgid "Year mix"
+msgstr "Year mix"
+
+msgid "Work mix"
+msgstr "Work mix"
+
+msgid "Artist mix"
+msgstr "Artist mix"
+
+msgid "Album mix"
+msgstr "Album mix"
+
+msgid "Track mix"
+msgstr "Track mix"
+
+msgid "CD player"
+msgstr "CD player"
+
+msgid "Music source"
+msgstr "Music source"
+
+msgid "Info browser"
+msgstr "Info browser"
+
+msgid "Never stop music"
+msgstr "Never stop music"
+
+msgid "Rescan music library"
+msgstr "Rescan music library"
+
+msgid "Squeezebox information"
+msgstr "Squeezebox information"
+
+msgid "Squeezebox name"
+msgstr "Squeezebox name"
+
+msgid "Album sort order"
+msgstr "Album sort order"
+
+
+msgid "Unknown language"
+msgstr "Unknown language"
+
+msgid "Own Music"
+msgstr "Own Music"
+
+msgid "Own Apps"
+msgstr "Own Apps"
+
+msgid "Turn off {player}"
+msgstr "Turn off {player}"
+
+msgid "Play now"
+msgstr "Play now"
+
+msgid "Play next"
+msgstr "Play next"
+
+msgid "Add to queue"
+msgstr "Add to queue"
+
+msgid "Auto return"
+msgstr "Auto return"
+
+msgid "Seconds"
+msgstr "Seconds"
+
+msgid "0 = Off, 1-3600 seconds"
+msgstr "0 = Off, 1-3600 seconds"
+
+msgid "Enter 0 to 3600 seconds"
+msgstr "Enter 0 to 3600 seconds"
+
+msgid "Save"
+msgstr "Save"
+
+msgid "Standby"
+msgstr "Standby"
+
+msgid "Clock"
+msgstr "Clock"
+
+msgid "Volume"
+msgstr "Volume"
+
+msgid "IP address"
+msgstr "IP address"
+
+msgid "Signal"
+msgstr "Signal"
+
+msgid "Connected"
+msgstr "Connected"
+
+msgid "Display brightness"
+msgstr "Display brightness"
+
+msgid "Night dimming"
+msgstr "Night dimming"
+
+msgid "Night brightness"
+msgstr "Night brightness"
+
+msgid "Start time"
+msgstr "Start time"
+
+msgid "End time"
+msgstr "End time"
+
+msgid "Daily, local time"
+msgstr "Daily, local time"
+
+msgid "Waiting for time"
+msgstr "Waiting for time"
+
+msgid "Enter time: HHMM"
+msgstr "Enter time: HHMM"
+
+msgid "Invalid time"
+msgstr "Invalid time"
+
+msgid "Start and end must differ"
+msgstr "Start and end must differ"
+
+msgid "Clear"
+msgstr "Clear"
+
+msgid "Brightness"
+msgstr "Brightness"
+
+msgid "On"
+msgstr "On"
+
+msgid "Hours"
+msgstr "Hours"
+
+msgid "Minutes"
+msgstr "Minutes"
